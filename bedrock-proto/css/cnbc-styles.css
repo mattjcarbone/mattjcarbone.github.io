@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'klavikar';
+    src: url('../fonts/klavika-regular-webfont.eot');
+    src: url('../fonts/klavika-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/klavika-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*HEADER*/
+.navbar{margin-bottom:0px;min-height:0;}
+.navbar-default{background:#163a4d  }
+.navbar-default{border-color:#294d65;}
+.main, .navbar-collapse{border-color:#294d65 solid 1px;background:#14222b;}
+.navbar .input-group{margin-bottom:5px;font-family:klavikar;margin-right:10px;}
+.navbar .input-group-addon{background:#427A8B;border: 1px solid #427A8B;color:white;cursor:pointer;}
+.navbar .input-group-addon:hover{background:#3f9ccd;border: 1px solid #3f9ccd;}
+.navbar-nav{font-family:klavikar;text-transform:uppercase;}
+.navbar-default .nav>li>a{padding:8px 12px 8px 12px;/*color:white;*/}
+.navbar-default .nav>li>a:hover, .navbar-default .nav>li>a.dropdown-toggle:hover{color:#C34C28;background:white;}
+.navbar>.container .navbar-brand {margin-right:20px;}
+.navbar-default .navbar-right li{color:grey;font-size:12px;}
+.navbar-default .navbar-right li.pipe{margin-top:8px;}
+.navbar-default .navbar-right li a{color:#c7d759;}
+.navbar-default .navbar-right li a:hover{color:white;background:none;}
+.navbar-toggle{margin-top:17px;}
+/*END HEADER*/
+
+/*FOOTER*/
+.footer{font-family:klavikar;}
+.footer li{line-height:24px;}
+.footer li a{color:white;text-decoration:none:;}
+.footer li a:hover{color:#c7d759;}
+.footer .container{background:#215a7a;}
+.footer .row{margin-left:0px;margin-right:0px;}
+footer .row.bottom, footer .bottom .container{background:#14222b;}
+footer .row.bottom{padding:40px 0px 40px 0px;color:#48565f;}
+footer .bottom a{color:#3aacd7;text-decoration:none;}
+.disclaimer-header{margin-bottom:15px;}
+.row.disclaimer{margin-top:30px;}
+.data-info{margin-top:20px;}
+#footer-logo {background: transparent url('http://fm.cnbc.com/applications/cnbc.com/staticcontent/img/footer-sprite.png') no-repeat -2px -54px; height: 58px; width: 70px;float:left;}
+/*END FOOTER*/
+
+/*STICKY FOOTER*/
+html, body {height: 100%;}
+#wrap {min-height: 100%;}
+#main {overflow:auto; padding-bottom:450px; /* this needs to be bigger than footer height*/}
+.footer {position: relative; margin-top: -450px; /* negative value of footer height */ height: 430px; clear:both; padding-top:20px;  background-color:#215a7a;} 
+/*END STICKY FOOTER*/
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {color:#424858; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+a {color:#2D648A;}
+
+small, .small {
+    font-family: arial;
+    text-transform: none;
+}
+
+.p-zero {padding:0px;}
+
+.modal-backdrop {
+z-index: 990;
+}
+
+.modal-content {
+  padding: 15px;
+  width: 500px;
+}
+
+.modal-body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: none;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.remember {
+  padding-top:5px;
+  padding-bottom: 15px;
+}
+
+.tac {text-align: center; padding-top:20px;}
+
+.tac ul {padding:0; padding-bottom: 5px;}
+
+.btn-grey {
+  font-family: "klavikar";
+  background-color:#b1b9be;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-grey:hover, .btn-grey:focus {color: #fff; background-color: #3da5ed;}
+
+.xfinity-logo {padding-right: 40px;}
+
+.m-zero {margin: 0;}
+
+.signup-group .row {
+  padding-bottom: 15px;
+}
+
+/* ==========================================================================
+   TABS
+   ========================================================================== */
+
+.nav-tabs > li { float: none; border: none; }
+
+.nav-tabs > li > a { border: none; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border: none;
+  color: #C34C28;
+  padding-bottom: 32px;
+  margin-bottom: -21px;
+  background: transparent url("http://fm.cnbc.com/applications/cnbc.com/staticcontent/img/tab-marker.png") no-repeat center bottom;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.nav > li > a {color: #2D648A;}
+
+.myTab {text-align: center;}
+
+.myTab li {display: inline-block; font-size: 16px;}
+
+
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+
+@media (min-width: 768px) {
+  .navbar .input-group{margin-top:22px;}
+  
+}
+@media (max-width: 767px) {
+   .list-inline.col-xs-6 li{display:block;}
+   .list-inline.col-xs-6 li:first-child{padding-left:5px;} 
+   .disclaimer{font-size:9px;}
+   .navbar-nav.navbar-right:last-child {margin-right: -20px;}
+  
+}
+@media (max-width: 992px) {
+  .navbar-default .nav>li>a{padding:7px;font-size:12px;}
+  .footer li{border-bottom:#25668a solid 1px;padding:15px;}
+  .footer .bottom li{border-bottom:none;}
+  .footer .container{width:100%;padding:0px;margin:0px;}
+}
+
+@media (min-width: 992px){
+.col-md-1 {width: 14%;}
+
+}
+
+
